@@ -1,0 +1,9 @@
+[package_detail]
+name = "nmap"
+description = "Free and open source utility for network discovery and security auditing"
+version = "7.92"
+source_url = "https://nmap.org/download"
+license = "Nmap Public Source License Version 0.94"
+install_script = "setup.sh"
+install_script_type = "shell"
+package_type = "snap"
