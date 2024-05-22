@@ -28,7 +28,7 @@ check_env() {
 }
 
 install() {
-  wget https://github.com/AttifyOS/nmap/releases/download/v7.92/nmap_7.92_amd64.snap -O $RALPM_TMP_DIR/nmap_7.92_amd64.snap
+  wget https://github.com/RAL0S/nmap/releases/download/v7.92/nmap_7.92_amd64.snap -O $RALPM_TMP_DIR/nmap_7.92_amd64.snap
   sudo snap install $RALPM_TMP_DIR/nmap_7.92_amd64.snap --devmode
   sudo snap connect nmap:network-control
   rm $RALPM_TMP_DIR/nmap_7.92_amd64.snap
